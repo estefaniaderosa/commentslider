@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+## COMMENT SLIDER  :speech_balloon:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Solución al reto de front-end, Comment Slider de [Nuwe](https://nuwe.io/). La finalidad del challenge es crear un slider con varias reviews positivas de usuarios del producto o página.
+Los objetivos son:
+ :white_small_square: Mostrar el layout propuesto ✅
+ :white_small_square: Deslizar hacia la izquierda y derecha y ver como mínimo 3 comentarios (Se muestran 4) ✅
 
-## Available Scripts
 
-In the project directory, you can run:
+## Demo  :sparkles:
+[estefaniaderosa.github.io/commentslider](https://estefaniaderosa.github.io/commentslider/)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Inicio :rocket:
+Para comenzar a trabajar con el repositorio instalar los paquetes e iniciar la app:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Instalar:
+> `npm i`  
 
-### `npm test`
+2. Iniciar:
+> `npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##  Tecnologías utilizadas :woman_technologist:
 
-### `npm run build`
+ - [React](https://es.reactjs.org/)
+ - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+ - [CCS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+ - [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) 
+ - [Axios](https://axios-http.com/)
+ 
+#Utilicé el hook useState de React para el manejo del estado local. CSS3 para la UI y Axios para obtener los datos de un archivo JSON que contiene las reseñas de los usuarios (avatar, nombre y comentario).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Estructura de carpetas :card_index_dividers:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ - :file_folder: public
+	 - index.html
+	 -  :file_folder: data 
+		 - skills.json
+ -  :file_folder: src 
+	 - App.js
+	 - index.js
+	 - index.css
+	 -  :file_folder: components 
+		 - CommentCarousel.js
+		 - CommentCarousel.css
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Calidad de Código :white_check_mark:
+ 
+[![CodeFactor](https://www.codefactor.io/repository/github/estefaniaderosa/commentslider/badge/gh-pages)](https://www.codefactor.io/repository/github/estefaniaderosa/commentslider/overview/gh-pages)
+ 
