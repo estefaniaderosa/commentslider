@@ -22,7 +22,7 @@ const CommentsCarousel = () => {
 
     const next = () => {
         if (currentIndex < (length - 1)) {
-            setCurrentIndex(prevIndex => prevIndex + 1) // ???
+            setCurrentIndex(prevIndex => prevIndex + 1) 
         }
     }
 
