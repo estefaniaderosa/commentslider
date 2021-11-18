@@ -45,6 +45,6 @@ Para comenzar a trabajar con el repositorio instalar los paquetes e iniciar la a
 
 
 ## Calidad de Código :white_check_mark:
- 
-[![CodeFactor](https://www.codefactor.io/repository/github/estefaniaderosa/commentslider/badge/gh-pages)](https://www.codefactor.io/repository/github/estefaniaderosa/commentslider/overview/gh-pages)
+
+[![CodeFactor](https://www.codefactor.io/repository/github/estefaniaderosa/commentslider/badge/master)](https://www.codefactor.io/repository/github/estefaniaderosa/commentslider/overview/master)
  
